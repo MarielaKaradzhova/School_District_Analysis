@@ -22,9 +22,7 @@ In particular, there are 4 main categories affected by the analysis as listed be
 3. Scores by School Size
 4. Scores by Type of School
 
-Below is a snippet of the District DataFrame created in this analysis. One major difference shown here is that Charter Schools yielded a higher higher overall passing percentage of students compared to District Schools. It is important to note that Thomas High School yielded the lowest overall passing percentage (65.1%) from all Charter Schools.
 
-![](https://github.com/MarielaKaradzhova/School_District_Analysis/blob/main/Resources/District_Analysis_raw.png)
 ### Results
 
 How is the district summary affected?
@@ -39,7 +37,6 @@ There are subtle differences in the district summary, in the %Overall Passing, %
 
 ![](https://github.com/MarielaKaradzhova/School_District_Analysis/blob/main/Resources/formatted_district_summary.png)
 
-How is the school summary affected?
 
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 How does replacing the ninth-grade scores affect the following:
@@ -48,13 +45,22 @@ Scores by school spending
 Scores by school size
 Scores by school type
 
+Below is a snippet of the District DataFrame created in the final analysis. One major difference shown here is that Charter Schools yielded a higher higher overall passing percentage of students compared to District Schools. It is important to note that Thomas High School yielded the lowest overall passing percentage (65.1%) from all Charter Schools. The results from the 4 categories listed above were very similar to the orignal analysis. 
+
+![](https://github.com/MarielaKaradzhova/School_District_Analysis/blob/main/Resources/District_Analysis_raw.png)
 
 
 
 
 ###Summary
 Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-1.
-2.
-3.
-4.
+
+As mentioned above:
+1. %Overall Passing
+2. % Passing Math
+3. %Passing Reading 
+4. Passing Percentages and Student Budget from clean data
+
+Overall, the student budget is not a valid indicator of student success, however as mentioned before Charter Schools showed higher scores and overall passing percentages of all students.
+
+![](https://github.com/MarielaKaradzhova/School_District_Analysis/blob/main/Resources/type_summary_df.png)
